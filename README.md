@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Line Following Drone
+
+The code for the line following drone is based on the following youtube video: https://www.youtube.com/watch?v=LmEcyQnfpDA and this programming course: https://www.computervision.zone/courses/drone-programming-course/
+
