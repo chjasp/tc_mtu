@@ -1,0 +1,56 @@
+.card-outer {
+    background: white;
+    position: relative;
+    width: 80%;
+    height: 40%;
+    margin-top: 3rem;
+    padding: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.marker {
+    height: 2vh;
+    width:13vh;
+    top: -3vh;
+    left: -3vh;
+    padding: 0.5rem;
+    background-color: #00414B;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    height: 100%;
+
+}
+
+.part-imgs {
+    position: relative;
+    max-width: 50%;
+    max-height: 90%;
+    overflow: hidden;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,107 @@
+.wrapper {
+  text-align: center;
+  background: white;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grouped {
+  /* background-color: green; */
+  height: 85vh;
+  width: 80%;
+  position: relative;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.upload-form {
+  height: 15vh;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: white;
+
+  border-bottom: 2px solid grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.result-upload-btn {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: #FFCC33;
+  color: #00414B;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.btn-task {
+  position: relative;
+  z-index: 20;
+  cursor: pointer;
+  background-color: #00414B;
+  padding: 0.5rem;
+  color: white;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.csv-select, .csv-btn {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.csv-btn {
+  background-color: #FFCC33;
+  color: #00414B;
+}
+
+.csv-select {
+  background-color: #00414B;
+  color: white;
+}
